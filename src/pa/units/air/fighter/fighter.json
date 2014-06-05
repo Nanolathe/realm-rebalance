@@ -26,7 +26,7 @@
 		}
 	},
 	"display_name": "Hummingbird",
-	"guard_layer": "WL_Air",
+	"guard_layer": ["WL_Air","WL_LandHorizontal","WL_WaterSurface"],
 	"tools": [{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",

@@ -75,7 +75,7 @@
 	"unit_types": ["UNITTYPE_Air",
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Transport",
-	"UNITTYPE_Advanced",
+	"UNITTYPE_Basic",
 	"UNITTYPE_FactoryBuild"],
 	"audio": {
 		"loops": {
@@ -112,7 +112,7 @@
 				"layer": "surface_and_air",
 				"radius": 350,
 				"channel": "radar",
-				"shape": "capsule"
+				"shape": "capsule",
 				"uses_energy": true
 			}]
 		}
@@ -120,7 +120,6 @@
 	"consumption": {
 		"energy": 100
 	},
-	
 	"description": "Air Transport: Load a land unit for rapid long distance travel.",
 	"attachable": {
 		"offsets": {

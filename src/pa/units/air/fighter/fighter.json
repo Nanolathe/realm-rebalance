@@ -74,6 +74,7 @@
 		"move_speed": 90,
 		"acceleration": 180,
 		"aggressive_distance": 120,
-		"type": "air"
+		"type": "air",
+		"hover_time":-1
 	}
 }

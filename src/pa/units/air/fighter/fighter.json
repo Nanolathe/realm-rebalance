@@ -31,6 +31,11 @@
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
 		"muzzle_bone": "bone_root"
+	},
+	{
+		"aim_bone": "bone_root",
+		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon_fake.json",
+		"muzzle_bone": "bone_root"
 	}],
 	"audio": {
 		"loops": {

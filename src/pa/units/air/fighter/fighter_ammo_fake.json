@@ -1,7 +1,6 @@
 {
 	"base_spec": "/pa/ammo/base_bomb/base_bomb.json",
-	"model":"null"
-	"damage": 0,
+	"damage": 1,
 	"splash_damage": 0,
 	"splash_radius": 0,
 	"initial_velocity": 300.0,

@@ -35,7 +35,9 @@
 	{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon_fake.json",
-		"muzzle_bone": "bone_root"
+		"muzzle_bone": "bone_root",
+		"primary_weapon": true,
+		"aim_weapon": true
 	}],
 	"audio": {
 		"loops": {
@@ -71,14 +73,14 @@
 	"build_metal_cost": 200,
 	"display_index": 80,
 	"max_health": 75,
-	"guard_radius": 120,
+	"guard_radius": 200,
 	"navigation": {
 		"bank_factor": 10,
-		"brake": 180,
+		"brake": 20,
 		"turn_speed": 90,
 		"move_speed": 90,
-		"acceleration": 90,
-		"aggressive_distance": 120,
+		"acceleration": 360,
+		"aggressive_distance": 50,
 		"type": "air",
 		"hover_time":600
 	}

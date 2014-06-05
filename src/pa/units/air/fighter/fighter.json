@@ -66,15 +66,15 @@
 	"build_metal_cost": 200,
 	"display_index": 80,
 	"max_health": 75,
-	"guard_radius": 200,
+	"guard_radius": 120,
 	"navigation": {
 		"bank_factor": 10,
 		"brake": 180,
 		"turn_speed": 90,
 		"move_speed": 90,
-		"acceleration": 180,
+		"acceleration": 90,
 		"aggressive_distance": 120,
 		"type": "air",
-		"hover_time":-1
+		"hover_time":600
 	}
 }

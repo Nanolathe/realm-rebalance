@@ -6,7 +6,7 @@
 	"ammo_capacity": 20000,
 	"ammo_demand": 2000,
 	"ammo_per_shot": 20000,
-	"max_range": 35,
+	"max_range": 4,
 	"yaw_rate": 3600,
 	"pitch_rate": 3600,
 	"yaw_range": 180,
@@ -17,11 +17,6 @@
 	"firing_standard_deviation": 30,
 	"target_layers": ["WL_LandHorizontal",
 	"WL_WaterSurface",
-	"WL_Seafloor"],
-	"events": {
-		"died": {"effect_scale": 3.5,
-			"audio_cue": "/SE/Impacts/shell_artillery",
-			"effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
-		}
-	}
+	"WL_Seafloor"]
+
 }
